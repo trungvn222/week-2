@@ -4,36 +4,45 @@ import './assets/css/main.css';
 class ShipingBar extends PureComponent {
     render() {
         return (
-            <div className="wrapper">
-                <div className="margin-area">
-                    <div className="dot one">1</div>
-                    <div className="dot two">2</div>
-                    <div className="dot three">3</div>
-                    <div className="dot four">4</div>
-                    <div className="progress-bar first" />
-                    <div className="progress-bar second" />
-                    <div className="progress-bar third" />
-                    <div className="message message-1">
-                    Picked up
-                    <div>
-                        <div className="message message-2">Arrived at USPS facility<div>
-                            <div className="message message-3">Out for delivery<div>
-                                <div className="message message-4">Delivered<div>
-                                </div>
-                                <div className="status">Your item arrived at our USPS facility in COLUMBUS, OH 43218 on January 6, 2016 at 10:45 pm. The item is currently in transit to the destination.</div>
-                                <div className="status code">Here is your tracking code: <a href="#">123456789</a>
-                                </div>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
+            <div className="grid_1">
+                <div className="col-md-3">
+                    <div className="box2">
+                        <ul className="list1">
+                            <i className="lock"> </i>
+                            <li className="list1_right"><p>Upto 5% Reward on your shipping</p></li>
+                            <div className="clearfix"> </div>
+                        </ul>
                     </div>
                 </div>
+                <div className="col-md-3">
+                    <div className="box3">
+                        <ul className="list1">
+                            <i className="clock1"> </i>
+                            <li className="list1_right"><p>Easy Extended Returned</p></li>
+                            <div className="clearfix"> </div>
+                        </ul>
+                    </div>
+                </div>
+                <div className="col-md-3">
+                    <div className="box4">
+                        <ul className="list1">
+                            <i className="vehicle"> </i>
+                            <li className="list1_right"><p>Free Shipping on order over 99 $</p></li>
+                            <div className="clearfix"> </div>
+                        </ul>
+                    </div>
+                </div>
+                <div className="col-md-3">
+                    <div className="box5">
+                        <ul className="list1">
+                            <i className="dollar"> </i>
+                            <li className="list1_right"><p>Delivery Schedule Spread Cheer Time</p></li>
+                            <div className="clearfix"> </div>
+                        </ul>
+                    </div>
+                </div>
+                <div className="clearfix"></div>
             </div>
-
-
         );
     }
 }

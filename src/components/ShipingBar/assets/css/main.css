@@ -1,121 +1,62 @@
-.wrapper {
-    background: #ffd800;
-    width: 844px;
-    height: 160px;
-}
-
-.margin-area {
-    position: relative;
-    text-align: center;
-    font-family: "Trebuchet", sans-serif;
-    font-size: 14px;
-    margin: 0 20px;
-}
-
-.dot {
-    height: 30px;
-    width: 30px;
-    position: absolute;
-    background: #000;
-    border-radius: 50%;
-    top: 10px;
-    color: #fff;
-    line-height: 30px;
-    z-index: 9999;
-}
-
-.dot.one {
-    left: 65px;
-    background: #0C84D9;
-}
-
-.dot.two {
-    left: 280px;
-    background: #0C84D9;
-}
-
-.dot.three {
-    left: 490px;
-    background: #bbb;
-    color: #ffd800;
-}
-
-.dot.four {
-    left: 700px;
-    background: #bbb;
-    color: #ffd800;
-}
-
-.progress-bar {
-    position: absolute;
-    height: 10px;
+.box2{
+	background:url(../img/feature.jpg)no-repeat;
+    min-height:100px;
     width: 25%;
-    top: 20px;
-    left: 10%;
-    background: #bbb;
+    float: left;
+}
+.box3{
+	background:url(../img/feature1.jpg)no-repeat;
+    min-height:100px;
+    width: 25%;
+    float: left;
+}
+.box4{
+	background:url(../img/feature2.jpg)no-repeat;
+    min-height:100px;
+    width: 25%;
+    float: left;
+}
+.box5{
+	background:url(../img/feature3.jpg)no-repeat;
+    min-height:100px;
+    width: 25%;
+    float: left;
 }
 
-.progress-bar.first {
-    background: #0C84D9;
+.box2 ul li,
+.box3 ul li,
+.box4 ul li,
+.box5 ul li {
+    list-style: none;
+    font-size: 20px;
+    color: #fff;
+
 }
 
-.progress-bar.second {
-    left: 37%;
+.box2,
+.box3,
+.box4,
+.box5{
+    white-space: nowrap;
+    height: 100px;
 }
 
-.progress-bar.third {
-    left: 64%;
+.box2:before,
+.box3:before,
+.box4:before,
+.box5:before {
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    content: '';
 }
-
-.message {
-    position: absolute;
-    height: 60px;
-    width: 170px;
-    padding: 10px;
+.box2 ul,
+.box3 ul,
+.box4 ul,
+.box5 ul {
+    display: inline-block;
+    vertical-align: middle;
+    white-space: normal;
     margin: 0;
-    left: -8px;
-    top: 0;
-    color: #000;
-}
-
-.message.message-1 {
-    top: 40px;
-    color: #000;
-}
-
-.message.message-2 {
-    left: 210px;
-}
-
-.message.message-3 {
-    left: 210px;
-    color: #000;
-}
-
-.message.message-4 {
-    left: 210px;
-}
-
-.status {
-    position: absolute;
-    width: 700px;
-    left: -600px;
-    text-align: center;
-    padding: 20px;
-    color: black;
-}
-
-.status.code {
-    top: 70px;
-}
-
-a {
-    color: #0C84D9;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-a:hover,
-a:focus {
-    text-decoration: underline;
+    padding: 0 20px;
 }
