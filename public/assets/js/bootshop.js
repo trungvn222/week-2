@@ -11,7 +11,7 @@ $(document).ready(function(){
 	// 	$('#gallery a').lightBox();
 	// });
 	
-	$('.subMenu > a').click(function(e)
+	$(document).on('click', '.subMenu > a',function(e)
 	{
 		e.preventDefault();
 		var subMenu = $(this).siblings('ul');
