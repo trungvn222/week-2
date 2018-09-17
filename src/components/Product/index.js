@@ -1,4 +1,6 @@
 import React, { PureComponent } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSearchPlus, faCartArrowDown } from '@fortawesome/free-solid-svg-icons'
 
 class Product extends PureComponent {
     render() {
@@ -10,7 +12,7 @@ class Product extends PureComponent {
                     <div className="caption">
                         <h5>{name}</h5>
                         <p>{description}</p>
-                        <h4 style={{textAlign: 'center'}}><a className="btn" href="product_details.html"> <i className="icon-zoom-in" /></a> <a className="btn" href="#">Add to <i className="icon-shopping-cart" /></a> <a className="btn btn-primary" href="#">{price}</a></h4>
+                        <h4 style={{textAlign: 'center'}}><a className="btn" href="product_details.html"> <FontAwesomeIcon icon={faSearchPlus} /></a> <a className="btn" href="#">Add to <FontAwesomeIcon icon={faCartArrowDown} /></a> <a className="btn btn-primary" href="#">{price}</a></h4>
                     </div>
                 </div>
             </li>

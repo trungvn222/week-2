@@ -10,7 +10,6 @@ import ProductsDataSource from './data/products';
 import CarouselData from './data/carousel';
 
 /* assets */
-import './assets/libs/fontawsome/css/font-awesome.css';
 import './assets/libs/bootstrap/css/bootstrap.min.css';
 import './App.css';
 import './assets/libs/bootstrap/css/bootstrap-responsive.min.css';
