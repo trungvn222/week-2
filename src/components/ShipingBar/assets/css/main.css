@@ -1,23 +1,23 @@
 .box2{
-	background:url(../img/feature.jpg)no-repeat;
+	background:red url(../img/feature.jpg)no-repeat;
     min-height:100px;
     width: 25%;
     float: left;
 }
 .box3{
-	background:url(../img/feature1.jpg)no-repeat;
+	background:blue url(../img/feature1.jpg)no-repeat;
     min-height:100px;
     width: 25%;
     float: left;
 }
 .box4{
-	background:url(../img/feature2.jpg)no-repeat;
+	background:green url(../img/feature2.jpg)no-repeat;
     min-height:100px;
     width: 25%;
     float: left;
 }
 .box5{
-	background:url(../img/feature3.jpg)no-repeat;
+	background:yellow url(../img/feature3.jpg)no-repeat;
     min-height:100px;
     width: 25%;
     float: left;
